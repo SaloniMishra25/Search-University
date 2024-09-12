@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+div {
+  width: 500px;
+  margin: auto;
+  padding: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+h1 {
+  text-align: center;
+}
+.box {
+  width: 480px;
+  margin: auto;
+  padding: auto;
+  padding-top: 30px;
+}
+.box > input {
+  width: 280px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 15px;
+ 
+}
+.box > button {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: aquamarine;
+}
+ol {
+  padding: 20px;
+  padding-left: 35px;
+  font-family: sans-serif;
+}
+ol > li {
+  padding-top: 10px;
+}
